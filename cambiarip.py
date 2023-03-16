@@ -60,7 +60,7 @@ if ip!=ip_address:
     response = requests.put(url, headers=headers, data=json.dumps(data))
 
     #muestra un texto informando que la IP se cambio, y te dice por cual.
-    print("Las ip se cambio a: "+str(ip_address))
+    print("La ip se cambio a: "+str(ip_address))
 else:
     #si las ip son iguales se mostrara un texto diciendo que es asi.
     print("Las ip siguien siendo iguales.")

@@ -63,7 +63,7 @@ if ip!=ip_address:
     print("La ip se cambio a: "+str(ip_address))
 else:
     #si las ip son iguales se mostrara un texto diciendo que es asi.
-    print("Las ip siguien siendo iguales.")
+    print("La ip sigue siendo igual.")
 #--------------------------------------------------#
 
 #---------------------------------------#

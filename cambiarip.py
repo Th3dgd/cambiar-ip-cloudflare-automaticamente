@@ -50,7 +50,7 @@ if ip!=ip_address:
     #modifica los datos de cloudflare
     data = { 
         "type": "A", #el tipo del registro
-        "name": "api.wrykun.com", #le pone un nombre a el registro
+        "name": nombre_de_registro, #le pone un nombre a el registro
         "content": ip_address, #actualiza la ip del registro
         "ttl": 1, #establece el ttl en automatico
         "proxied": True #dice que el proxy de cloudflare estara habilitado (cambialo a "False" sin comillas si quieres que no este habilitado)
